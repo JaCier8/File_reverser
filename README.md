@@ -2,13 +2,13 @@
 
 **Autor: Jan Ciecierski**
 
-## 📝 Opis
+## Opis
 
 `freverse` to wysoce wydajny program narzędziowy napisany w czystym asemblerze x86-64 (NASM) dla systemu Linux. Program służy do odwracania zawartości dowolnego pliku "w miejscu" (in-place).
 
 Program przyjmuje jeden argument: ścieżkę do pliku, który ma zostać odwrócony.
 
-## ⚙️ Jak to działa?
+## Jak to działa?
 
 Aby osiągnąć maksymalną wydajność i zminimalizować liczbę wywołań systemowych, program wykorzystuje mapowanie pliku do pamięci (`mmap`):
 
